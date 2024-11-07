@@ -1,0 +1,45 @@
+.modal-container {
+  position: relative;
+  top: -360px;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 200px;
+  width: 400px;
+  border-radius: 10px;
+  background-color: rgb(240, 240, 240);
+  z-index: 99;
+  display: none;
+  box-shadow: 1px 1px 12px 1px rgba(0, 0, 0, 0.3);
+}
+.form-container {
+  padding: 30px;
+}
+
+.form-container form {
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+form label {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-bottom: 10px;
+}
+.submit-button {
+  background-color: rgb(1, 1, 182);
+  border: 1px solid rgb(1, 1, 182);
+  padding: 8px 16px;
+  border-radius: 5px;
+  text-transform: capitalize;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+.remove-icon {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  font-size: 16px;
+}
